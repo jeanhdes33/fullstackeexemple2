@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navBar {
+  width: 100%;
+  background-color: #2c3e50; /* Fond de la barre de navigation */
+  color: #ecf0f1; /* Couleur du texte */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif; /* Police de caractères */
+}
+
+.navBar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navBar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navBar-menu-item {
+  margin-right: 10px;
+}
+
+.navBar-menu-item a {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.navBar-menu-item a:hover {
+  color: #bdc3c7;
+  text-decoration: underline;
+}
